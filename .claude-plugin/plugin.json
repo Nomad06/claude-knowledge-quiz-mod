@@ -1,0 +1,18 @@
+{
+  "name": "task-quiz",
+  "version": "0.1.0",
+  "description": "Shows you a random Claude practice question above the prompt each time you start a task, just for you: the model never sees it.",
+  "author": {
+    "name": "Nomad06",
+    "email": "fortune06@yandex.ru"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "every": {
+      "type": "number",
+      "title": "Show a question every Nth task",
+      "description": "1 shows a question on every task, 3 on every third task, and so on.",
+      "default": 1
+    }
+  }
+}

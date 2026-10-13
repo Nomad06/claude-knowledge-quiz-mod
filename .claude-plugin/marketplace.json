@@ -1,0 +1,15 @@
+{
+  "name": "task-quiz",
+  "owner": {
+    "name": "Nomad06",
+    "email": "fortune06@yandex.ru"
+  },
+  "description": "Claude practice questions shown above the prompt as you work.",
+  "plugins": [
+    {
+      "name": "task-quiz",
+      "source": "./",
+      "description": "A random Claude practice question above the prompt each time you start a task."
+    }
+  ]
+}
